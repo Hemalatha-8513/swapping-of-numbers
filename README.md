@@ -1,29 +1,18 @@
 # swapping-of-numbers
 C program to swap two variables
 
-#include<studio.h>
-Int main( )
+#include<stdio.h>
+int main ()
 {
-Int x,y ;
-Printf ("enter value of x");
-Scanf("%d",&y);
-Printf ("\n Enter value of y");
-Scanf ("%d",&y);
-
-Int temp =x;
-X = y ;
-Y = temp ;
-Printf ("\n after swapping:x=%d,y=%d",x,y);
-Return 0;
-
+	int a,b;
+	printf("Enter a,b values:");
+	scanf("%d %d",a,b);
+	printf("before swapping a,b values %d%d",a,b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("\n after swapping a,b values %d%d",a,b);
 }
 
 
-
-Output
-
-Enter value of x 12
-Enter value of y 14
-
-After swapping:x= 14,y=12
 
