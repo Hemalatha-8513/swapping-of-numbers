@@ -1,6 +1,5 @@
 # swapping-of-numbers
 C program to swap two variables
-
 #include<stdio.h>
 int main ()
 {
